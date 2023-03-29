@@ -31,10 +31,4 @@ void onLedChange()  {
     Serial.println("OFF");
   }
 }
-/*
-  Since Project is READ_WRITE variable, onProjectChange() is
-  executed every time a new value is received from IoT Cloud.
-*/
-void onProjectChange()  {
-  // Add your code here to act upon Project change
-}
+
